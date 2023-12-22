@@ -11,3 +11,7 @@
 * Step 5 - for entering the docker container using - `sudo docker exec -it  mwa /bin/bash`
 * Step 6 - Check gui interaction is working using command - xeyes.
   After completing now you can use PRESTO, SPEGID, FETCH & YOUR.
+
+For copying from 
+docker to local machine - `sudo docker cp container_name:/path/to/your/file.txt /path/to/destination/`
+local machine to docker - `sudo docker cp /path/to/your/file.txt aditya:/path/to/destination/in_docker`
