@@ -18,12 +18,17 @@
 * Step 3 - execute command `sudo usermod -aG docker $USER`
     Replace $USER with the user you want to add.
 * Step 4 - Go to user account and enjoy docker without sudo  
-* Step 4 -  run command - `groups`
-* Step 5 - if yo
+
+(optional steps if you hvae a server with hight security ) 
+* Step 5 - repeat till step 3  
+* Step 6 - ls -l /var/run/docker.sock  
+    Check if the output looks like - srw-rw---- 1 root root 0 Jan 23 10:08 /var/run/docker.sock  
+    you have to change the root user of group to docker and to do that execute command - `sudo chown root:docker /var/run/docker.sock`
+* Step 7 - Repeat step 3 and you're good to go !!!
 
  
 
 
-For copying from 
+ ## For copying
 docker to local machine - `sudo docker cp container_name:/path/to/your/file.txt /path/to/destination/`
 local machine to docker - `sudo docker cp /path/to/your/file.txt aditya:/path/to/destination/in_docker`
