@@ -12,7 +12,7 @@
 * Step 6 - Check gui interaction is working using command - xeyes.
   After completing now you can use PRESTO.
 
-# For no giving root access 
+# Use docker without sudo or root access 
 * Step 1 - Install docker and pull the image in your root access machine
 * Step 2 - execute comman - `sudo groupadd docker`
 * Step 3 - execute command `sudo usermod -aG docker $USER`
