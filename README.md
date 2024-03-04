@@ -19,7 +19,7 @@
     Replace $USER with the user you want to add.
 * Step 4 - Go to user account and enjoy docker without sudo  
 
-(optional steps if you hvae a server with hight security ) 
+(optional steps if you have a server with hight security ) 
 * Step 5 - repeat till step 3  
 * Step 6 - ls -l /var/run/docker.sock  
     Check if the output looks like - srw-rw---- 1 root root 0 Jan 23 10:08 /var/run/docker.sock  
