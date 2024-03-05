@@ -4,7 +4,7 @@
   Note - Changes made in image wont be saved that's why there is a need to create container.  
 * Step 2 - To start a docker container with name - presto and effectively use GUI interation use this command -
   name of container = presto(choose yourself)
-  name of repository = adii1722/mwa_sps_pipeline:presto
+  name of repository = adii1722/presto:presto
   `sudo docker run -it --privileged --network host -e DISPLAY=:1 --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --name presto adii1722/presto:presto /bin/bash`  
 * Step 3 - After getting inside the container exit by typing exit and enter
 * Step 4 - Start the container by using command - `sudo docker start presto`
