@@ -26,6 +26,8 @@
     you have to change the root user of group to docker and to do that execute command - `sudo chown root:docker /var/run/docker.sock`
 * Step 7 - Repeat step 3 and you're good to go !!!
 
+>Note : set the DISPLAY value after checking what's your machine Display by checking from `echo $DISPLAY`
+(Optional if still the display issue exist try this command - )
  
 
 
